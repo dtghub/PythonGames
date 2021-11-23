@@ -1,5 +1,7 @@
 import random
-from PlayingCard import *
+import sys
+sys.path.append('/home/derek/Documents/UoG/GA1/FPSE/Week3/unitTesing/cloned/PythonGames')
+from src.PlayingCard import *
 
 """Constant values to be references in the functions and methods below."""
 winning_score = 21
@@ -133,3 +135,5 @@ if __name__ == "__main__":
     main()
 
 
+# if __name__ == "__main__":
+#     unittest.main()
